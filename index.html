@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuhair Qureshi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/home/favicon.png">
+    <style>
+        .white-text {
+            color: white;
+        }
+        
+        .standard-font {
+            font-size: 15px;
+        }
+
+        .larger-font {
+            font-size: 17.5px;
+        }
+
+        .center-text {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .card-img-top{
+            border: 2px solid black;
+        }
+
+        .pad-bottom {
+            padding-bottom: 100px;
+        }
+
+        .justify-projs {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar --> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Tenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample08">
+            <ul class="navbar-nav w-100 justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+    <div class="bg-white">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/home/macChangersPic.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Zuhair Qureshi</h1>
+                <p class="lead">Software and Biomedical Engineering Student at McMaster University.</p>
+                <p class="lead standard-font">Passionate about the intersection of engineering technology, software, data analytics, and healthcare.</p> 
+                <p class="lead standard-font">500+ hours of professional data science experience and 800+ hours of biological research experience.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Projects -->
+    <div class="bg-dark">
+        <section class="py-2 text-center container">
+            <div class="row pt-lg-5">
+            <div class="white-text col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-lightt pt-2 pb-4">My Projects</h1>
+                <p class="white-text larger-font lead">A catalogue of my efforts over the last year.</p>
+            </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Project Listing-->
+    <div class="album pt-5 pad-bottom bg-dark">
+        <div class="container">
+        <h2 class="center-text white-text pb-5">Course-Based Design Projects</h2>
+        <!-- <div class="white-text justify-projs pb-4">
+            <h3>NitroFlex</h3>
+            <h3>Resuscitron</h3>
+            <h3>LegLift</h3>
+        </div> -->
+        
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" href="Projects/designProjects/designProject1.html">
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                  <h3>NitroFlex</h3>
+                </div>
+              <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/designStudio/nitroflexComponents.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+                  <div class="card-body">
+                  <p class="card-text standard-font pb-2">An innovative hip implant design with each head component rotating in a different axis, and proposed to be built out of high nitrogen stainless steel.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <a href="https://zuhairqureshi.notion.site/Project-2-NitroFlex-An-Innovative-Non-Traditional-Hip-Arthroplasty-a554f8c8f6e04573b0209c2c5b561d7b">
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                        </div>
+                      </a>
+                      <small class="text-muted">Notion</small>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>Resuscitron</h3>
+                </div>
+              <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/designStudio/resuscitronDiagram.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+      
+                  <div class="card-body">
+                  <p class="card-text standard-font pb-2">A design for an automated cardiopulmonary resuscitation device with adjustable depth settings to facilitate use on children. Powered via RaspberryPi and coded with Python.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                      <a href="https://zuhairqureshi.notion.site/Project-3-The-Resuscitron-07df109be2194281ae2b07ba8eb594c9">
+                        <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                        </div>
+                      </a>
+                      <small class="text-muted">Notion</small>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>LegLift</h3>
+                </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/designStudio/legLiftPrototype.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">A scaled-down portable seat with in-built angle-adjustable leg rests and securement straps to secure it onto any chair. Improves posture in clients with mobility issues.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="https://zuhairqureshi.notion.site/Project-4-LegLift-3b06333cc20145348ac83d7ade353bbf" class="text-decoration-none">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                      </div>
+                    </a>
+                    <small class="text-muted">Notion</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+    </div>
+            
+    <div class="album py-5 bg-dark">
+        <div class="container pad-bottom">
+        <h2 class="center-text white-text pb-5">Extracurricular Design Projects</h2>
+        <!-- <div class="white-text justify-projs pb-4">
+            <h3>NoteFlow</h3>
+            <h3>PinPoint</h3>
+            <h3>Albedo</h3>
+        </div> -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>PinPoint</h3>
+                </div>
+                <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/extracurricular/pinPointCAD.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                    <p class="card-text standard-font pb-2">An integrated smart anklet for dementia patients with fall detection, heart rate, and location sensing. Powered by Arduino Uno microcontroller and coded in Python.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <a href="Projects/extracurricular/pinpoint.html">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                        </div>
+                      </a>
+                        <small class="text-muted">Project Page</small>
+                    </div>
+                </div>
+                </div>
+            </div>       
+            <div class="col">
+              <div class="white-text justify-projs pb-4">
+                <h3>NoteFlow</h3>
+              </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/extracurricular/noteflowEx.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">A natural language processing-based note summarization tool to extract key insights from a text. Coded using SpaCy library and TextRank algorithm in Python.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="https://github.com/McMasterAI/NoteFlow">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                      </div>
+                    </a>
+                    <small class="text-muted">GitHub Repo</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>Albedo</h3>
+                </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/extracurricular/canonPharmacy.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">A policy-based proposal for modifying materials of paved surfaces in Hamilton to incorporate barium sulfate, lowering albedo and reducing urban heat island effects.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="Projects/extracurricular/albedoProject.html">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                      </div>
+                    </a>
+                    <small class="text-muted">Project Page</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+        
+    <div class="album pt-5 pad-bottom bg-dark">
+        <div class="container">
+        <h2 class="center-text white-text pb-5">Personal Projects</h2>
+        <!-- <div class="white-text justify-projs pb-4">
+            <h3>Autonomouse</h3>
+            <h3>Library Scraper</h3>
+            <h3>Clash of Swords</h3>
+        </div> -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">          
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>Autonomouse</h3>
+                </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/personal/faceDetectTest.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">An application that grants users hands-free mouse control with head movements and blinks. Coded using Media Pipe, OpenCV, and PyAutoGUI Python libraries.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                    </div>
+                    <small class="text-muted">GitHub Repo</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>Library Scraper</h3>
+                </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/personal/libraryScrapePDFimg.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">A parser script for upcoming Toronto Public Library programs. Emails results in PDF. Coded in Python using SMTP API, FPDF, Selenium WebDriver, and BeautifulSoup.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="https://github.com/ZuhairQureshi/Toronto-Public-Library-Event-Catalogue-Service">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                      </div>
+                    </a>
+                    <small class="text-muted">GitHub Repo</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="white-text justify-projs pb-4">
+                    <h3>Clash of Swords</h3>
+                </div>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/projects/personal/clashOfSwordsOpenScreen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"></rect>
+    
+                <div class="card-body">
+                  <p class="card-text standard-font pb-2">A 2-player platform game modeled after the Super Smash Bros series. Multiple maps, players, and round options. Coded in Java using Swing and JFrame.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="https://github.com/ZuhairQureshi/clash-of-swords">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">See More</button>
+                      </div>
+                    </a>
+                    <small class="text-muted">GitHub Repo</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-white">
+
+        <section class="container">
+            <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="public/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="public/contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024</p>
+            </footer>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
