@@ -37,6 +37,22 @@
             display: flex;
             justify-content: space-around;
         }
+
+
+        body {
+          animation: fadeInAnimation ease 3s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+        }
+        
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
     </style>
 </head>
 <body>
@@ -72,7 +88,7 @@
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3">Zuhair Qureshi</h1>
-                <p class="lead">Software and Biomedical Engineering Student at McMaster University.</p>
+                <p class="lead animate">Software and Biomedical Engineering Student at McMaster University.</p>
                 <p class="lead standard-font">Passionate about the intersection of engineering technology, software, data analytics, and healthcare.</p> 
                 <p class="lead standard-font">500+ hours of professional data science experience and 800+ hours of biological research experience.</p>
             </div>
